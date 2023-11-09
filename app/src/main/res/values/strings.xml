@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fragment_Lab_1fr</string>
+    <string name="date">Date: </string>
+    <string name="welcome_string">Welcome to our cosmetics shop</string>
+</resources>

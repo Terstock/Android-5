@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable baseline_back_hand_24
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id action_first_fragment_to_second_fragment
+id btn
+id btnToSecondFragment
+id descrtv
+id first_fragment
+id fragment_container_view_tag
+id iv
+id nav_graph
+id rv
+id second_fragment
+id tv
+id tvDesc
+id tvName
+layout activity_main
+layout fragment_first_fragment
+layout fragment_second_fragment
+layout item_cosmetics
+mipmap ic_launcher
+mipmap ic_launcher_round
+navigation nav_graph
+string app_name
+string date
+string welcome_string
+style Base.Theme.Fragment_Lab_1fr
+style Theme.Fragment_Lab_1fr
+xml backup_rules
+xml data_extraction_rules
