@@ -15,6 +15,7 @@ id iv
 id nav_graph
 id rv
 id second_fragment
+id swipe
 id tv
 id tvDesc
 id tvName

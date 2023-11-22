@@ -30,7 +30,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Fragment_Lab_1fr" >
         <activity
-            android:name="com.example.fragment_lab_1fr.MainActivity"
+            android:name="com.example.fragment_lab_1fr.presentation.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

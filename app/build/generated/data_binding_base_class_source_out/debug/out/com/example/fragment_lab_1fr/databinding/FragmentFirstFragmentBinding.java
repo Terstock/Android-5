@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.fragment_lab_1fr.R;
@@ -28,13 +29,18 @@ public final class FragmentFirstFragmentBinding implements ViewBinding {
   public final RecyclerView rv;
 
   @NonNull
+  public final SwipeRefreshLayout swipe;
+
+  @NonNull
   public final TextView tv;
 
   private FragmentFirstFragmentBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button btnToSecondFragment, @NonNull RecyclerView rv, @NonNull TextView tv) {
+      @NonNull Button btnToSecondFragment, @NonNull RecyclerView rv,
+      @NonNull SwipeRefreshLayout swipe, @NonNull TextView tv) {
     this.rootView = rootView;
     this.btnToSecondFragment = btnToSecondFragment;
     this.rv = rv;
+    this.swipe = swipe;
     this.tv = tv;
   }
 
@@ -77,6 +83,12 @@ public final class FragmentFirstFragmentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.swipe;
+      SwipeRefreshLayout swipe = ViewBindings.findChildViewById(rootView, id);
+      if (swipe == null) {
+        break missingId;
+      }
+
       id = R.id.tv;
       TextView tv = ViewBindings.findChildViewById(rootView, id);
       if (tv == null) {
@@ -84,7 +96,7 @@ public final class FragmentFirstFragmentBinding implements ViewBinding {
       }
 
       return new FragmentFirstFragmentBinding((ConstraintLayout) rootView, btnToSecondFragment, rv,
-          tv);
+          swipe, tv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

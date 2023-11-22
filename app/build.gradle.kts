@@ -59,4 +59,12 @@ dependencies {
     implementation("com.github.bumptech.glide:glide:4.12.0")
     //implementation("com.github.bumptech.glide:okhttp3-integration:4.12.0")
     annotationProcessor("com.github.bumptech.glide:compiler:4.12.0")
+    //retrofit and other
+    implementation("com.google.code.gson:gson:2.8.9")
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.5.1")
+    implementation ("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
 }

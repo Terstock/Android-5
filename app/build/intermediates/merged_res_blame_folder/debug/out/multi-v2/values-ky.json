@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.fragment_lab_1fr.app-mergeDebugResources-46:/values-ky/values-ky.xml",
+            "outputFile": "com.example.fragment_lab_1fr.app-mergeDebugResources-47:/values-ky/values-ky.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\aa56be35c7980858c73a90adedebad93\\transformed\\material-1.10.0\\res\\values-ky\\values-ky.xml",

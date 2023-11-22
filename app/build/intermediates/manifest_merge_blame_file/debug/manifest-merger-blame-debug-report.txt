@@ -48,8 +48,8 @@
 31-->D:\Fragment_Lab_1fr\app\src\main\AndroidManifest.xml:15:9-54
 32        <activity
 32-->D:\Fragment_Lab_1fr\app\src\main\AndroidManifest.xml:17:9-25:20
-33            android:name="com.example.fragment_lab_1fr.MainActivity"
-33-->D:\Fragment_Lab_1fr\app\src\main\AndroidManifest.xml:18:13-41
+33            android:name="com.example.fragment_lab_1fr.presentation.MainActivity"
+33-->D:\Fragment_Lab_1fr\app\src\main\AndroidManifest.xml:18:13-54
 34            android:exported="true" >
 34-->D:\Fragment_Lab_1fr\app\src\main\AndroidManifest.xml:19:13-36
 35            <intent-filter>

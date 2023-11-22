@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/first_fragment"
-        android:name="com.example.fragment_lab_1fr.First_fragment"
+        android:name="com.example.fragment_lab_1fr.presentation.cosmeticslist.First_fragment"
         android:label="fragment_first_fragment"
         tools:layout="@layout/fragment_first_fragment" >
         <action
@@ -16,11 +16,11 @@
     </fragment>
     <fragment
         android:id="@+id/second_fragment"
-        android:name="com.example.fragment_lab_1fr.Second_fragment"
+        android:name="com.example.fragment_lab_1fr.presentation.cosmeticsdetais.Second_fragment"
         android:label="fragment_second_fragment"
         tools:layout="@layout/fragment_second_fragment" >
         <argument
-            android:name="namus"
+            android:name="mystr"
             app:argType="string" />
     </fragment>
 </navigation>

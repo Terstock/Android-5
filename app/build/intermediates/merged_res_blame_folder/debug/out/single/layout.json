@@ -1,26 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.fragment_lab_1fr.app-mergeDebugResources-47:\\layout\\fragment_second_fragment.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.fragment_lab_1fr.app-main-50:\\layout\\fragment_second_fragment.xml"
+        "merged": "com.example.fragment_lab_1fr.app-mergeDebugResources-48:/layout/fragment_second_fragment.xml",
+        "source": "com.example.fragment_lab_1fr.app-main-51:/layout/fragment_second_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.fragment_lab_1fr.app-mergeDebugResources-47:\\layout\\fragment_first_fragment.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.fragment_lab_1fr.app-main-50:\\layout\\fragment_first_fragment.xml"
+        "merged": "com.example.fragment_lab_1fr.app-mergeDebugResources-48:/layout/item_cosmetics.xml",
+        "source": "com.example.fragment_lab_1fr.app-main-51:/layout/item_cosmetics.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.fragment_lab_1fr.app-mergeDebugResources-47:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.fragment_lab_1fr.app-main-50:\\layout\\activity_main.xml"
+        "merged": "com.example.fragment_lab_1fr.app-mergeDebugResources-48:/layout/fragment_first_fragment.xml",
+        "source": "com.example.fragment_lab_1fr.app-main-51:/layout/fragment_first_fragment.xml"
     },
     {
-        "merged": "com.example.fragment_lab_1fr.app-mergeDebugResources-47:/layout/fragment_first_fragment.xml",
-        "source": "com.example.fragment_lab_1fr.app-main-50:/layout/fragment_first_fragment.xml"
-    },
-    {
-        "merged": "com.example.fragment_lab_1fr.app-mergeDebugResources-47:/layout/fragment_second_fragment.xml",
-        "source": "com.example.fragment_lab_1fr.app-main-50:/layout/fragment_second_fragment.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.fragment_lab_1fr.app-mergeDebugResources-47:\\layout\\item_cosmetics.xml",
-        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.fragment_lab_1fr.app-main-50:\\layout\\item_cosmetics.xml"
+        "merged": "com.example.fragment_lab_1fr.app-mergeDebugResources-48:/layout/activity_main.xml",
+        "source": "com.example.fragment_lab_1fr.app-main-51:/layout/activity_main.xml"
     }
 ]
